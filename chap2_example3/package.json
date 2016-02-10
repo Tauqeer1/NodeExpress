@@ -1,0 +1,9 @@
+{
+  "name": "chap3_example3",
+  "author": "Tauqeer Ahmed",
+  "private": true,
+  "version": "0.2.0",
+  "dependencies": {
+    "mustache": "^2.2.1"
+  }
+}
