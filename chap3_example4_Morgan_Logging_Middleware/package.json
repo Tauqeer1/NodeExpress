@@ -1,0 +1,10 @@
+{
+  "name": "Morgan-Logging-Middleware for logging",
+  "version": "0.0.1",
+  "author": "Tauqeer Ahmed",
+  "private": true,
+  "dependencies": {
+    "express": "^4.13.4",
+    "morgan": "^1.6.1"
+  }
+}
