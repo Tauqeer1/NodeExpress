@@ -1,0 +1,26 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\Tauqeer Ahmed\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start' ]
+2 info using npm@3.7.1
+3 info using node@v5.6.0
+4 verbose stack Error: Invalid name: "Simple app for sending file"
+4 verbose stack     at ensureValidName (C:\Users\Tauqeer Ahmed\AppData\Roaming\npm\node_modules\npm\node_modules\normalize-package-data\lib\fixer.js:336:15)
+4 verbose stack     at Object.module.exports.fixNameField (C:\Users\Tauqeer Ahmed\AppData\Roaming\npm\node_modules\npm\node_modules\normalize-package-data\lib\fixer.js:215:5)
+4 verbose stack     at C:\Users\Tauqeer Ahmed\AppData\Roaming\npm\node_modules\npm\node_modules\normalize-package-data\lib\normalize.js:32:38
+4 verbose stack     at Array.forEach (native)
+4 verbose stack     at normalize (C:\Users\Tauqeer Ahmed\AppData\Roaming\npm\node_modules\npm\node_modules\normalize-package-data\lib\normalize.js:31:15)
+4 verbose stack     at final (C:\Users\Tauqeer Ahmed\AppData\Roaming\npm\node_modules\npm\node_modules\read-package-json\read-json.js:338:5)
+4 verbose stack     at then (C:\Users\Tauqeer Ahmed\AppData\Roaming\npm\node_modules\npm\node_modules\read-package-json\read-json.js:113:5)
+4 verbose stack     at ReadFileContext.<anonymous> (C:\Users\Tauqeer Ahmed\AppData\Roaming\npm\node_modules\npm\node_modules\read-package-json\read-json.js:284:20)
+4 verbose stack     at ReadFileContext.callback (C:\Users\Tauqeer Ahmed\AppData\Roaming\npm\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:76:16)
+4 verbose stack     at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:324:13)
+5 verbose cwd D:\tauqeer\Web\NodeExpress\chap4_example2_Simple_app_for_file_sending
+6 error Windows_NT 6.3.9600
+7 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\Tauqeer Ahmed\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "start"
+8 error node v5.6.0
+9 error npm  v3.7.1
+10 error Invalid name: "Simple app for sending file"
+11 error If you need help, you may report this error at:
+11 error     <https://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]
